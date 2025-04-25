@@ -112,3 +112,28 @@
 | **28/03/2025** | 25                         	| 0                              	| 1                  	| 2                        	|
 | **29/03/2025** | 25                         	| 0                              	| 0                  	| 1                        	|
 | **30/03/2025** | 25                         	| 0                              	| 0                  	| 0                       
+
+
+```mermaid
+gantt
+    title Burndown Chart - Sprint 1 (10/03 - 30/03/2025)
+    dateFormat  YYYY-MM-DD
+    axisFormat %d/%m
+    
+    section Progresso
+    Tarefas Restantes (Real) : active, 2025-03-10, 25
+    Tarefas Restantes (Real) : 2025-03-11, 24
+    Tarefas Restantes (Real) : 2025-03-13, 21
+    Tarefas Restantes (Real) : 2025-03-15, 15
+    Tarefas Restantes (Real) : 2025-03-18, 10
+    Tarefas Restantes (Real) : 2025-03-22, 5
+    Tarefas Restantes (Real) : 2025-03-28, 0
+    
+    section Ideal
+    Tarefas Restantes (Ideal) : crit, 2025-03-10, 25
+    Tarefas Restantes (Ideal) : 2025-03-11, 23
+    Tarefas Restantes (Ideal) : 2025-03-13, 19
+    Tarefas Restantes (Ideal) : 2025-03-15, 15
+    Tarefas Restantes (Ideal) : 2025-03-18, 12
+    Tarefas Restantes (Ideal) : 2025-03-22, 8
+    Tarefas Restantes (Ideal) : 2025-03-28, 0
