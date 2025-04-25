@@ -114,25 +114,13 @@
 | **30/03/2025** | 25                         	| 0                              	| 0                  	| 0                       
 
 ```mermaid
-gantt
-    title Burndown Chart - Sprint 1 (10/03 - 30/03/2025)
-    dateFormat  YYYY-MM-DD
-    axisFormat %d/%m
-    
-    section Progresso
-    Tarefas Restantes (Real) : active, 2025-03-10, 25
-    Tarefas Restantes (Real) : 2025-03-11, 24
-    Tarefas Restantes (Real) : 2025-03-13, 21
-    Tarefas Restantes (Real) : 2025-03-15, 15
-    Tarefas Restantes (Real) : 2025-03-18, 10
-    Tarefas Restantes (Real) : 2025-03-22, 5
-    Tarefas Restantes (Real) : 2025-03-28, 0
-    
-    section Ideal
-    Tarefas Restantes (Ideal) : crit, 2025-03-10, 25
-    Tarefas Restantes (Ideal) : 2025-03-11, 23
-    Tarefas Restantes (Ideal) : 2025-03-13, 19
-    Tarefas Restantes (Ideal) : 2025-03-15, 15
-    Tarefas Restantes (Ideal) : 2025-03-18, 12
-    Tarefas Restantes (Ideal) : 2025-03-22, 8
-    Tarefas Restantes (Ideal) : 2025-03-28, 0
+xychart-beta
+    title "Burndown Chart - Progresso de Atividades Sprint 1"
+    x-axis [10/03/2025, 12/03/2025, 14/03/2025, 16/03/2025, 18/03/2025, 
+           20/03/2025, 22/03/2025, 24/03/2025, 26/03/2025, 28/03/2025, 30/03/2025]
+    y-axis "Tarefas" 0-->25
+    line [25, 24, 24, 21, 21, 15, 12, 12, 10, 10, 10, 5, 5, 5, 5, 3, 1, 0]
+        :: "Tarefas (Real)"
+    line [25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+        :: "Tarefas (Ideal)"
+        stroke-dasharray: 5,5
