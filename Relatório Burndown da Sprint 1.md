@@ -114,13 +114,10 @@
 | **30/03/2025** | 25                         	| 0                              	| 0                  	| 0                       
 
 ```mermaid
-xychart-beta
-    title "Burndown Chart - Progresso de Atividades Sprint 1"
-    x-axis [10/03/2025, 12/03/2025, 14/03/2025, 16/03/2025, 18/03/2025, 
-           20/03/2025, 22/03/2025, 24/03/2025, 26/03/2025, 28/03/2025, 30/03/2025]
+lineChart
+    title Burndown Chart - Progresso de Atividades Sprint 1
+    x-axis 10/03, 12/03, 14/03, 16/03, 18/03, 20/03, 22/03, 24/03, 26/03, 28/03, 30/03
     y-axis "Tarefas" 0-->25
-    line [25, 24, 24, 21, 21, 15, 12, 12, 10, 10, 10, 5, 5, 5, 5, 3, 1, 0]
-        :: "Tarefas (Real)"
-    line [25, 23, 21, 19, 17, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
-        :: "Tarefas (Ideal)"
+    "Tarefas (Real)": 25, 24, 24, 21, 21, 15, 12, 10, 10, 5, 0
+    "Tarefas (Ideal)": 25, 23, 21, 19, 17, 15, 13, 11, 9, 7, 5, 3, 1, 0
         stroke-dasharray: 5,5
