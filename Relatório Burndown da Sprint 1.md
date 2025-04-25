@@ -120,20 +120,45 @@ gantt
     dateFormat  YYYY-MM-DD
     axisFormat %d/%m
     
-    section Progresso
-    Tarefas Restantes (Real) : active, 2025-03-10, 25
-    Tarefas Restantes (Real) : 2025-03-11, 24
-    Tarefas Restantes (Real) : 2025-03-13, 21
-    Tarefas Restantes (Real) : 2025-03-15, 15
-    Tarefas Restantes (Real) : 2025-03-18, 10
-    Tarefas Restantes (Real) : 2025-03-22, 5
-    Tarefas Restantes (Real) : 2025-03-28, 0
+    section Progresso Real
+    Linha Real : 0, 2025-03-10, 25
+    Linha Real : 1, 2025-03-11, 24
+    Linha Real : 0, 2025-03-12, 24
+    Linha Real : 3, 2025-03-13, 21
+    Linha Real : 0, 2025-03-14, 21
+    Linha Real : 6, 2025-03-15, 15
+    Linha Real : 3, 2025-03-16, 12
+    Linha Real : 0, 2025-03-17, 12
+    Linha Real : 2, 2025-03-18, 10
+    Linha Real : 0, 2025-03-19, 10
+    Linha Real : 0, 2025-03-20, 10
+    Linha Real : 5, 2025-03-22, 5
+    Linha Real : 0, 2025-03-23, 5
+    Linha Real : 0, 2025-03-24, 5
+    Linha Real : 0, 2025-03-25, 5
+    Linha Real : 2, 2025-03-26, 3
+    Linha Real : 2, 2025-03-27, 1
+    Linha Real : 1, 2025-03-28, 0
     
-    section Ideal
-    Tarefas Restantes (Ideal) : crit, 2025-03-10, 25
-    Tarefas Restantes (Ideal) : 2025-03-11, 23
-    Tarefas Restantes (Ideal) : 2025-03-13, 19
-    Tarefas Restantes (Ideal) : 2025-03-15, 15
-    Tarefas Restantes (Ideal) : 2025-03-18, 12
-    Tarefas Restantes (Ideal) : 2025-03-22, 8
-    Tarefas Restantes (Ideal) : 2025-03-28, 0
+    section Progresso Ideal
+    Linha Ideal : crit, 25, 2025-03-10, 25
+    Linha Ideal : 23, 2025-03-11, 23
+    Linha Ideal : 21, 2025-03-12, 21
+    Linha Ideal : 19, 2025-03-13, 19
+    Linha Ideal : 17, 2025-03-14, 17
+    Linha Ideal : 15, 2025-03-15, 15
+    Linha Ideal : 14, 2025-03-16, 14
+    Linha Ideal : 13, 2025-03-17, 13
+    Linha Ideal : 12, 2025-03-18, 12
+    Linha Ideal : 11, 2025-03-19, 11
+    Linha Ideal : 10, 2025-03-20, 10
+    Linha Ideal : 9, 2025-03-21, 9
+    Linha Ideal : 8, 2025-03-22, 8
+    Linha Ideal : 7, 2025-03-23, 7
+    Linha Ideal : 6, 2025-03-24, 6
+    Linha Ideal : 5, 2025-03-25, 5
+    Linha Ideal : 4, 2025-03-26, 4
+    Linha Ideal : 3, 2025-03-27, 3
+    Linha Ideal : 2, 2025-03-28, 2
+    Linha Ideal : 1, 2025-03-29, 1
+    Linha Ideal : 0, 2025-03-30, 0
